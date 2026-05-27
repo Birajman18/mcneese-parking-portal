@@ -43,7 +43,7 @@ A web-based parking permit management system built for McNeese State University.
 ## Project Structure
 
 ```
-mcneese-parking-hangtag-system/
+mcneese-parking-portal/
 ├── index.php                  # Landing page
 ├── login.html                 # Login page
 ├── register.html              # Registration page
@@ -85,25 +85,18 @@ mcneese-parking-hangtag-system/
 1. Clone the repository
 
 ```bash
-git clone https://github.com/Birajman18/mcneese-parking-hangtag-system.git
+git clone https://github.com/Birajman18/mcneese-parking-portal.git
 ```
 
 2. Move the files to your web server's root directory (e.g. `htdocs` for XAMPP or `www` for WAMP)
 
 3. Set up the database (see [Database Setup](#database-setup))
 
-4. Update `api/config.php` with your database credentials:
-
-```php
-define('DB_HOST', 'your_host');
-define('DB_USER', 'your_username');
-define('DB_PASS', 'your_password');
-define('DB_NAME', 'your_database_name');
-```
+4. Update `api/config.php` with your own database host, username, password, and database name before running locally
 
 5. Update the `API_BASE` URL in all JavaScript files to match your domain or localhost path
 
-6. Open the app in your browser at your configured domain or `http://localhost/mcneese-parking-hangtag-system`
+6. Open the app in your browser at your configured domain or `http://localhost/mcneese-parking-portal`
 
 ---
 

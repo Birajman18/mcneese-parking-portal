@@ -1,5 +1,4 @@
 // purchase.js
-// author Niraj Bhandari
 const API_BASE = 'https://mcneeseparking.infinityfree.me/api/';
 
 document.addEventListener('DOMContentLoaded', function() {

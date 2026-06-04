@@ -1,7 +1,6 @@
 // This file handles all user authentication - logging in, registering, logging out, and checking if someone is logged in
 
 // The base URL where all our API files live on the server
-// Author:Niraj Bhandari
 const API_BASE = 'https://mcneeseparking.infinityfree.me/api/';
 
 // This function runs when someone is trying to log in to the webpage

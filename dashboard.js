@@ -4,7 +4,6 @@
 // It loads permits, vehicles, payment history, and handles user interactions
 // 
 // The base URL for all API requests to the server
-// Author Niraj Bhandari
 const API_BASE = 'https://mcneeseparking.infinityfree.me/api/';
 
 // PAGE INITIALIZATION
